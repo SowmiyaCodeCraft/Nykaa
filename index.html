@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="eng" class="background-100-e">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Nykaa</title>
+      <meta name="description" content="Onepage Parallax Site" />
+      <meta name="keywords" content="onepage, parallax" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css" />
+      <link rel="stylesheet" href="bower_components/animate.css/animate.min.css" />
+      <link rel="stylesheet" href="bower_components/minicolors/jquery.minicolors.css" />
+      <link rel="stylesheet" href="bower_components/slick.js/slick/slick.css" />
+      <link rel="stylesheet" href="bower_components/slick.js/slick/slick-theme.css" />
+      <link rel="stylesheet" href="bootstrap/dist/css/bootstrap-custom.min.css" />
+      <link rel="stylesheet" href="lib/linecons/style.css" />
+      <link rel="stylesheet" href="styles/style.min.css" />
+      <link rel="stylesheet" href="theme-custom.css" />
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+      <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+      <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png" />
+      <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png" />
+      <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png" />
+      <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png" />
+      <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png" />
+      <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png" />
+      <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png" />
+   </head>
+   <body class="state1 background-100-e">
+      <div class="page-border bottom colors-e background-solid"><a href="#top" class="hover-effect">To <span class="highlight">Top</span></a></div>
+      <div class="page-border left colors-e background-solid">
+         <ul>
+            <li><a href="#" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"  title="Youtube" target="_blank"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"  title="Video" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
+            <li><a href="#" title="Skype"  target="_blank"><i class="fa fa-skype"></i></a></li>
+         </ul>
+      </div>
+      <!-- BEGIN: Top menu -->
+      <div class="page-border right colors-e background-solid"></div>
+      <nav class="navbar navbar-default navbar-fixed-top page-transition colors-e background-solid" role="navigation" id="top-nav">
+         <div class="container">
+            <div class="navbar-header">
+               <a class="menu-toggle ext-nav-toggle visible-xs-block" data-target=".ext-nav" href="#"><span></span></a>
+               <a class="menu-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" href="#"><span></span></a>
+               <a class="navbar-brand" href="#">NYK<span class="highlight">AA</span></a>
+            </div>
+            <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#home"  title="Home" class="hover-effect">Home</a></li>
+                  <li><a href="#about"  title="About" class="hover-effect">About</a></li>
+                  <li><a href="#services"  title="Services" class="hover-effect">Services</a></li>
+                  <li><a href="#work"  title="Work" class="hover-effect">Work</a></li>
+                  <li><a href="#process"  title="Process" class="hover-effect">Process</a></li>
+                  <li><a href="#contact"  title="Contact" class="hover-effect">Contact</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- END: Top menu -->
+      <ul id="dot-scroll" class="colors-e background-solid"></ul>
+      <div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
+         <div class="overlay-control background-85-d">
+            <a class="previos" href="#"  title="#"></a>
+            <a class="next" href="#"  title="#"></a>
+            <a class="cross" href="#"  title="#"></a>
+         </div>
+         <div class="overlay-view"></div>
+         <ul class="loader">
+            <li class="background-100-d"></li>
+            <li class="background-100-d"></li>
+            <li class="background-100-d"></li>
+         </ul>
+      </div>
+      <div class="overlay-window map-overlay colors-f background-95-f">
+         <div class="overlay-control background-90-f">
+            <a class="cross" href="#"  title="#"></a>
+         </div>
+         <div class="overlay-view">
+            <div class="map-canvas" data-latitude="42.487606" data-longitude="-71.115661" data-zoom="14">
+               <div class="map-marker" data-latitude="42.487606" data-longitude="-71.115661" data-text="Our awesome location"></div>
+               <div class="map-marker" data-latitude="42.485100" data-longitude="-71.113256" data-text="Our sales office"></div>
+            </div>
+         </div>
+      </div>
+      <div class="overlay-window credits-overlay colors-g background-95-g">
+         <div class="overlay-control background-85-d">
+            <a class="cross" href="#"  title="#"></a>
+         </div>
+      </div>
+      <div class="gate colors-e background-solid">
+         <div class="gate-bar background-highlight-e"></div>
+         <ul class="loader">
+            <li class="background-100-g"></li>
+            <li class="background-90-c"></li>
+            <li class="background-100-f"></li>
+         </ul>
+      </div>
+      <!-- BEGIN: Page content -->
+      <section id="home">
+         <div class="view">
+            <img alt class="bg" src="images/bg/THOR/2941950875_2b2447b557_o-edt.jpg" /><img alt class="bg" src="images/bg/THOR/2945791126_0e4aff223a_o.jpg" />
+            <div class="content home-alice full-size colors-a background-transparent">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-md-5 col-md-offset-1">
+                        <div class="text-right textillate heading  hidden-xs hidden-sm" data-textillate-options="{loop:true, in:{effect:'flipInY', reverse:true}, out:{effect:'flipOutY', reverse:true}}">
+                           <ul class="texts">
+                              <li>Shades for Designers</li>
+                              <li>Hues for Programmers</li>
+                              <li>Tints for Coders</li>
+                              <li>Pigments for Developers</li>
+                              <li>Colors for the Creative</li>
+                           </ul>
+                        </div>
+                        <h1 class="heading text-right">Nykaa</h1>
+                        <p class="text-right title">
+                           Discover the vibrant world of lipstick production at Nykaa, where quality meets creativity in every shade. Explore our exclusive sales and find your perfect lip color today!								
+                        </p>
+                        <p class="text-right"><a href="#about"  title="about" class="button background-60-d heading-d">About Us</a><a href="#work"  title="Work" class="button background-60-f heading-f">Our Work</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="about">
+         <div class="view">
+            <img alt class="bg" src="images/bg/picjumbo/picjumbo.com_IMG_5790.jpg" />
+         </div>
+         <div class="view">
+            <img alt class="bg" src="images/bg/pexels/autumn-avenue-path-946.jpg" /><img alt class="bg" src="images/bg/pexels/autumn-avenue-path-946.jpg" />
+            <div class="content colors-e">
+               <div class="container">
+                  <h2>About Us</h2>
+                  <!-- <p class="header-details"><span class="highlight">We Create</span> Awesome Stuff</p> -->
+                  <p class="lead">Experience the artistry of  <span class="highlight">lipstick production</span> 
+                     at Nykaa, where every shade is meticulously crafted for perfection. Explore our wide range of colors and finishes, designed to suit every style and occasion. Shop Nykaa's lipsticks today and discover your signature shade!
+                  </p>
+                  <div class="row">
+                     <div class="col-md-4">
+                        <div class="col-icon">
+                           <img src="images/new-img/lipstick.png"> 
+                        </div>
+                        <div class="col-content">
+                           <h4> <span class="highlight"> Lipstick</span> Texture Mastery </h4>
+                           <p>Dive into the world of lipstick manufacturing at Nykaa, where innovation and quality meet to create the perfect lip color. Explore the meticulous process that goes into crafting each lipstick, ensuring a luxurious experience for every user.	</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="col-icon">
+                           <img src="images/new-img/lipsticks.png"> 
+                        </div>
+                        <div class="col-content">
+                           <h4>The Standard of<span class="highlight"> Nykaa Lipsticks </span></h4>
+                           <p>Experience the unmatched quality of Nykaa lipsticks, crafted with precision and care to deliver long-lasting, vibrant color. Discover the superior formulation and luxurious feel that set Nykaa lipsticks apart from the rest.</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="col-icon">
+                           <img src="images/new-img/liquid-lipstick.png">
+                        </div>
+                        <div class="col-content">
+                           <h4> Explore Nykaa's <span class="highlight">Lipstick Collection </span></h4>
+                           <p>Dive into Nykaa's extensive lipstick collection, where every shade tells a story. From bold and bright to subtle and sophisticated, there's a perfect lip color for every mood and occasion. Explore our collection and find your signature shade today!</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="view" id="how-we-work">
+            <img alt class="bg" src="images/bg/picjumbo/picjumbo.com_IMG_7432.jpg" /><img alt class="bg" src="images/bg/pexels/coffee-coffee-machine-cup-3042.jpg" />
+            <div class="content colors-h">
+               <div class="container">
+                  <h3><span class="highlight">How</span> We Work</h3>
+                  <div class="row">
+                     <div class="col-md-6 col-md-offset-3">
+                        <p class="text-center">
+                           At Nykaa, we work tirelessly to create lipsticks that not only look beautiful but also feel luxurious on your lips. From carefully selecting the finest ingredients to testing and perfecting every shade, we are dedicated to delivering exceptional quality and style in every lipstick we make.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="row icon-set">
+                     <div class="col-md-3 text-center">
+                        <p>
+                           <i class="li_eye circle scroll-in-animation background-20 heading" data-animation="fadeInUp"></i>
+                        </p>
+                        <p class="title"><span class="underline-text">Awesome</span></p>
+                        <p>At Nykaa, we strive for lipstick perfection, blending artistry with innovation to create truly awesome lip colors.</p>
+                     </div>
+                     <div class="col-md-3 text-center">
+                        <p>
+                           <i class="li_like circle scroll-in-animation background-20 heading" data-animation="fadeInUp"></i>
+                        </p>
+                        <p class="title"><span class="underline-text">Innovative</span></p>
+                        <p>Innovation drives our lipstick making process, pushing boundaries to create unique and trendsetting shades.</p>
+                     </div>
+                     <div class="col-md-3 text-center">
+                        <p>
+                           <i class="li_paperplane circle scroll-in-animation background-20 heading" data-animation="fadeInUp"></i>
+                        </p>
+                        <p class="title"><span class="underline-text">Creative</span></p>
+                        <p>Our creative approach to lipstick making ensures each product is a work of art.</p>
+                     </div>
+                     <div class="col-md-3 text-center">
+                        <p>
+                           <i class="li_lab circle scroll-in-animation background-20 heading" data-animation="fadeInUp"></i>
+                        </p>
+                        <p class="title"><span class="underline-text">Experimental</span></p>
+                        <p>Exploring new possibilities, we experiment to create innovative lipstick shades.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="services">
+         <div class="view">
+            <img alt class="bg" src="images/bg/pexels/coffee-coffee-machine-cup-3042.jpg" /><img alt class="bg" src="images/bg/pexels/coffee-coffee-machine-cup-3042.jpg" />
+            <div class="content colors-e">
+               <div class="container">
+                  <h2>Services</h2>
+                  <p class="header-details"><span class="highlight">We Are Here</span> For You</p>
+                  <p class="lead"> Elevate your look with our luxurious lipstick collection, offering rich colors and long-lasting formulas. Discover the perfect shade to complement your style and enhance your beauty.</p>
+                  <div class="row">
+                     <div class="col-md-3 top-line">
+                        <h4>Lipstick <br> Makeover</h4>
+                        <p>Receive a professional lipstick application and styling session for special occasions.</p>
+                     </div>
+                     <div class="col-md-3 top-line">
+                        <h4>Lipstick<br />Refill </h4>
+                        <p> Refill your favorite lipstick shade in-store to reduce waste and save money.</p>
+                     </div>
+                     <div class="col-md-3 top-line">
+                        <h4>Lipstick Subscription Box</h4>
+                        <p>Receive a curated selection of lipsticks delivered to your door monthly or quarterly.</p>
+                     </div>
+                     <div class="col-md-3 top-line">
+                        <h4>Lipstick <br>Workshops</h4>
+                        <p>Attend workshops to learn about lipstick making and create your own custom lipstick.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="view">
+            <img alt class="bg" src="images/bg/pexels/art-brush-colors-3112.jpg" /><img alt class="bg" src="images/bg/picjumbo/picjumbo.com_IMG_4563.jpg" /><img alt class="bg" src="images/bg/picjumbo/picjumbo.com_HNCK1805.jpg" />
+            <div class="content half-size colors-h">
+               <div class="container">
+                  <div class="show-list slogan">
+                     <div class="show-item">We are Elegance</div>
+                     <div class="show-item">We are Sophistication</div>
+                     <div class="show-item">We are Confidence</div>
+                     <div class="show-item">We are Beauty</div>
+                  </div>
+                  <div class="separator"></div>
+                  <p class="text-center big-font">
+                     <em>— Nykaa —</em>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="work">
+         <div class="view">
+            <img alt class="bg" src="images/bg/stocksnap/219FB68281.jpg" /><img alt class="bg" src="images/bg/stocksnap/219FB68281.jpg" />
+            <div class="content no-bottom-padding colors-e">
+               <div class="container">
+                  <h2>Our <span class="highlight">Work</span></h2>
+                  <p class="header-details"><span class="highlight">Some Recent</span> Projects</p>
+                  <p class="lead">Our recent projects in lipstick sales have been aimed at expanding our product range to include more trendsetting shades and innovative formulas. We've also focused on enhancing our online presence through targeted digital marketing campaigns and social media engagement to reach a wider audience.</p>
+               </div>
+               <div class="gallery background-e" data-default-group="all" data-overlay=".gallery-overlay">
+                  <div class="container-fluid">
+                     <div class="filter">
+                        <ul class="nav nav-pills text-center">
+                           <li><a class="hover-effect" data-group="all" href="#"  title="All">All</a></li>
+                           <li><a class="hover-effect" data-group="web" href="#"  title="Special">Special</a></li>
+                           <li><a class="hover-effect" data-group="photography" href="#"  title="Photography">Photography</a></li>
+                        </ul>
+                     </div>
+                     <div class="row">
+                        <div class="grid">
+                           <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["design"]'>
+                              <a href="#"  title="#" class="hover-overlay">
+                                 <img alt="Project 1" src="images/new-img/lipsticks-1.png" class="img-fluid" alt="Nykaa Lipstick" />
+                                 <div class="overlay background-90-e">
+                                    <div class="hidden-xs">
+                                       <p class="title heading-e">Lipstick</p>
+                                       <p class="text-center heading-e"><strong>lipsticks talk about allure</strong></p>
+                                       <p class="text-center"><i class="fa fa-picture-o heading-e"></i></p>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "web", "video"]'>
+                              <a href="#" title="#" class="hover-overlay">
+                                 <img alt="Project 2" src="images/new-img/lipsticks-2.png" class="img-fluid" alt="Nykaa Lipstick" />
+                                 <div class="overlay background-90-e">
+                                    <div class="hidden-xs">
+                                       <p class="title heading-e">Lipstick</p>
+                                       <p class="text-center heading-e"><strong>lipsticks talk about quality</strong></p>
+                                       <p class="text-center"><i class="fa fa-youtube-square heading-e"></i></p>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "design"]'>
+                              <a href="#"  title="#"class="hover-overlay">
+                                 <img alt="Project 3" src="images/new-img/lipsticks-3.png" class="img-fluid" alt="Nykaa Lipstick" />
+                                 <div class="overlay background-90-e">
+                                    <div class="hidden-xs">
+                                       <p class="title heading-e">Lipstick</p>
+                                       <p class="text-center heading-e"><strong>lipsticks talk about elgance</strong></p>
+                                       <p class="text-center"><i class="fa fa-th heading-e"></i></p>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "web", "video"]'>
+                              <a href="#"  title="#" class="hover-overlay">
+                                 <img alt="Project 4"src="images/new-img/lipsticks-4.png" class="img-fluid" alt="Nykaa Lipstick"  />
+                                 <div class="overlay background-90-e">
+                                    <div class="hidden-xs">
+                                       <p class="title heading-e">Lipstick</p>
+                                       <p class="text-center heading-e"><strong>lipsticks talk about shades</strong></p>
+                                       <p class="text-center"><i class="fa fa-vimeo-square heading-e"></i></p>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "design"]'>
+                              <a href="#"  title="#" class="hover-overlay">
+                                 <img alt="Project 5" src="images/new-img/lipsticks-5.png" class="img-fluid" alt="Nykaa Lipstick" />
+                                 <div class="overlay background-90-e">
+                                    <div class="hidden-xs">
+                                       <p class="title heading-e">Lipstick</p>
+                                       <p class="text-center heading-e"><strong>lipsticks talk about Confidence</strong></p>
+                                       <p class="text-center"><i class="fa fa-th heading-e"></i></p>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "web", "design"]'>
+                              <a href="#"  title="#" class="hover-overlay">
+                                 <img alt="Project 6"src="images/new-img/lipsticks-6.png" class="img-fluid" alt="Nykaa Lipstick"  />
+                                 <div class="overlay background-90-e">
+                                    <div class="hidden-xs">
+                                       <p class="title heading-e">Lipstick</p>
+                                       <p class="text-center heading-e"><strong>lipsticks talk about style</strong></p>
+                                       <p class="text-center"><i class="fa fa-picture-o heading-e"></i></p>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["design", "video", "web"]'>
+                              <a href="#"  title="#"class="hover-overlay">
+                                 <img alt="Project 7" src="images/new-img/lipsticks-7.png" class="img-fluid" alt="Nykaa Lipstick" />
+                                 <div class="overlay background-90-e">
+                                    <div class="hidden-xs">
+                                       <p class="title heading-e">Lipstick</p>
+                                       <p class="text-center heading-e"><strong>lipsticks talk about thickness</strong></p>
+                                       <p class="text-center"><i class="fa fa-vimeo-square heading-e"></i></p>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["web"]'>
+                              <a href="#" title="#" class="hover-overlay">
+                                 <img alt="Project 8" src="images/new-img/lipsticks-8.png" class="img-fluid" alt="Nykaa Lipstick"  />
+                                 <div class="overlay background-90-e">
+                                    <div class="hidden-xs">
+                                       <p class="title heading-e">Lipstick</p>
+                                       <p class="text-center heading-e"><strong>lipsticks talk about quality</strong></p>
+                                       <p class="text-center"><i class="fa fa-picture-o heading-e"></i></p>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "design", "video", "web"]'>
+                              <a href="#"  title="#"class="hover-overlay">
+                                 <img alt="Project 9"src="images/new-img/lipsticks-9.png" class="img-fluid" alt="Nykaa Lipstick" />
+                                 <div class="overlay background-90-e">
+                                    <div class="hidden-xs">
+                                       <p class="title heading-e">Lipstick</p>
+                                       <p class="text-center heading-e"><strong>lipsticks talk about boldness</strong></p>
+                                       <p class="text-center"><i class="fa fa-youtube-square heading-e"></i></p>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "design"]'>
+                              <a href="#"  title="#" class="hover-overlay">
+                                 <img alt="Project 10" src="images/new-img/lipsticks-10.png" class="img-fluid" alt="Nykaa Lipstick"  />
+                                 <div class="overlay background-90-e">
+                                    <div class="hidden-xs">
+                                       <p class="title heading-e">Lipstick</p>
+                                       <p class="text-center heading-e"><strong>lipsticks talk about allure</strong></p>
+                                       <p class="text-center"><i class="fa fa-vimeo-square heading-e"></i></p>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+
+						   <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "design"]'>
+							<a href="#"  title="#" class="hover-overlay">
+							   <img alt="Project 10" src="images/new-img/lipsticks-11.png" class="img-fluid" alt="Nykaa Lipstick"  />
+							   <div class="overlay background-90-e">
+								  <div class="hidden-xs">
+									 <p class="title heading-e">Lipstick</p>
+									 <p class="text-center heading-e"><strong>lipsticks talk about allure</strong></p>
+									 <p class="text-center"><i class="fa fa-vimeo-square heading-e"></i></p>
+								  </div>
+							   </div>
+							</a>
+						 </div>
+                           
+                           <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["web", "design"]'>
+                              <a href="#"  title="#" class="hover-overlay">
+                                 <img alt="Project 12" src="images/new-img/lipsticks-12.png" class="img-fluid" alt="Nykaa Lipstick"  />
+                                 <div class="overlay background-90-e">
+                                    <div class="hidden-xs">
+                                       <p class="title heading-e">Lipstick</p>
+                                       <p class="text-center heading-e"><strong>lipsticks talk about confidence</strong></p>
+                                       <p class="text-center"><i class="fa fa-th heading-e"></i></p>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="process">
+         <div class="view">
+            <img alt class="bg" src="images/bg/pexels/art-brush-colors-3112.jpg" /><img alt class="bg" src="images/bg/pexels/art-brush-colors-3112.jpg" />
+            <div class="content colors-e">
+               <div class="container">
+                  <h2>Our <span class="highlight">Process</span></h2>
+                  <p class="header-details"><span class="highlight">We Make</span> Our Customers Happy</p>
+                  <p class="lead">Our process is centered around customer satisfaction, ensuring that every lipstick we create brings joy and confidence to our customers. We prioritize their preferences and feedback, crafting lipsticks that make them feel beautiful inside and out.</p>
+                  <div class="process">
+                     <div class="row process-row">
+                        <div class="col-md-3 process-step">
+                           <div class="process-box"><i class="li_search heading"></i></div>
+                           <p class="title">Research</p>
+                           <p class="text-center">Through extensive research, we innovate lipsticks that redefine beauty and style.</p>
+                        </div>
+                        <div class="col-md-3 process-step">
+                           <div class="process-box"><i class="li_pen heading"></i></div>
+                           <p class="title">Concept</p>
+                           <p class="text-center">Our lipstick concept embodies elegance, style, and self-expression.</p>
+                        </div>
+                        <div class="col-md-3 process-step">
+                           <div class="process-box"><i class="li_settings heading"></i></div>
+                           <p class="title">Process</p>
+                           <p class="text-center">Our lipstick process combines artistry and precision to create luxurious, high-quality products.</p>
+                        </div>
+                        <div class="col-md-3 process-step">
+                           <div class="process-box"><i class="li_paperplane heading"></i></div>
+                           <p class="title">Test</p>
+                           <p class="text-center">Our lipstick undergoes rigorous testing to ensure superior quality and performance.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="view" id="numbers">
+            <img alt class="bg" src="images/bg/picjumbo/picjumbo.com_IMG_7432.jpg" /><img alt class="bg" src="images/bg/pexels/coffee-coffee-machine-cup-3042.jpg" />
+            <div class="content half-size colors-h">
+               <div class="container-fluid">
+                  <h3>Our <span class="highlight">Numbers</span></h3>
+                  <p class="title"><span class="highlight">Some of the</span> cool facts about us</p>
+                  <div class="row counters">
+                     <div class="col-md-4 counter background-25-b">
+                        <div class="count player row heading background-10-light">347</div>
+                        <div class="caption">Projects</div>
+                     </div>
+                     <div class="col-md-4 counter background-25-b">
+                        <div class="count player row heading background-10-light">3459</div>
+                        <div class="caption">Followers</div>
+                     </div>
+                     <div class="col-md-4 counter background-35-h">
+                        <div class="count player row heading background-10-light">7</div>
+                        <div class="caption">Years</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="contact">
+         <div class="view">
+            <img alt class="bg" src="images/bg/pexels/art-brush-colors-3112.jpg" /><img alt class="bg" src="images/bg/picjumbo/picjumbo.com_IMG_4563.jpg" /><img alt class="bg" src="images/bg/picjumbo/picjumbo.com_HNCK1805.jpg" />
+            <div class="content full-size colors-h">
+               <div class="container">
+                  <h2>Contact</h2>
+                  <p class="header-details">Keep In Touch</p>
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="text-right scroll-in-animation" data-animation="fadeInLeft">
+                           <p class="big-font uppercase">
+                              Tel: <strong class="highlight">+91 9876544398</strong>
+                           </p>
+                           <p class="big-font uppercase">
+                              500 Unicorn Park Dr, 21st Floor
+                              <br/> Woburn, MA 01801, Chennai.
+                           </p>
+                           <p class="big-font">
+                              <b>
+                              <a href="mailto:nykaa@gmail.com">nykaa@gmail.com</a>
+                              </b>
+                           </p>
+                           <p class="big-font">
+                              <a target="_blank" href="#"  title="Twitter"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-twitter fa-stack-1x text-background"></i></span></a>
+                              <a target="_blank" href="#"  title="Facebook"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-facebook fa-stack-1x text-background"></i></span></a>
+                              <a target="_blank" href="#"  title="Youtube"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-youtube fa-stack-1x text-background"></i></span></a>
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="text-left scroll-in-animation" data-animation="fadeInRight">
+                           <form class="ajax-form" data-message-class="colors-d background-95 heading border" action="https://skrollex.romanmeleshin.art/theme-alice/contact.php" method="post" novalidate="novalidate">
+                              <div class="row">
+                                 <div class="col-md-6 control-group">
+                                    <div class="alt-placeholder">Name</div>
+                                    <input type="text" name="your-name" value="" size="40" placeholder="Name" data-validation-required-message="Please fill the required field." required>
+                                    <div class="help-block"></div>
+                                 </div>
+                                 <div class="col-md-6 control-group">
+                                    <div class="alt-placeholder">Email</div>
+                                    <input type="email" name="your-email" value="" size="40" placeholder="Email" data-validation-required-message="Please fill the required field." required>
+                                    <div class="help-block"></div>
+                                 </div>
+                                 <div class="col-md-12 control-group">
+                                    <div class="alt-placeholder">Message</div>
+                                    <textarea name="your-message" placeholder="Message" data-validation-required-message="Please fill the required field." required></textarea>
+                                    <div class="help-block"></div>
+                                 </div>
+                                 <div class="col-md-12 form-actions">
+                                    <input class="button" type="submit" value="Send">
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END: Page content -->
+      <!-- BEGIN: Footer -->
+      <footer class="colors-g page-transition non-preloading">
+         <div class="container scroll-in-animation" data-animation="fadeInDown">
+            <div class="row">
+               <div class="col-md-4">
+                  <h4>Nyk<span class="highlight">aa</span></h4>
+                  <div class="footer-description">
+                     <p>Discover the essence of beauty with Nykaa, where each lipstick embodies sophistication and style.
+                        Explore our wide range of lipsticks, meticulously crafted to enhance your natural beauty and elevate your style. 
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <h5>Quick Links</h5>
+                  <ul class="simple">
+                     <li><a href="#home"  title="Home">Home</a></li>
+                     <li><a href="#about"  title="About">About</a></li>
+                     <li><a href="#services"  title="Services">Services</a></li>
+                     <li><a href="#work"   title="Work">Work</a></li>
+                     <li><a href="#process"  title="Process">Process</a></li>
+                     <li><a href="#contact"  title="Contact" >Contact</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-4">
+                  <h5>Recent Posts</h5>
+                  <ul class="simple">
+                     <li><a href="#"  title="#">Lipstick Makeover
+                        </a>
+                     </li>
+                     <li><a href="#"  title="#">Lipstick Refill</a></li>
+                     <li><a href="#"  title="#">Lipstick Subscription Box</a></li>
+                     <li><a href="#"  title="#">Lipstick Workshop</a></li>
+                     <p class="social-links">
+                        <a target="_blank" href="#"  title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a target="_blank" href="#"  title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a target="_blank" href="#"  title="Youtube"><i class="fa fa-youtube"></i></a>
+                        <a target="_blank" href="#"  title="Video"><i class="fa fa-vimeo-square"></i></a>
+                        <a target="_blank" href="#"  title="Pinterest"><i class="fa fa-printerest"></i></a>
+                        <a target="_blank" href="#"  title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                     </p>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="bottom text-center background-10-b">
+            © 2024 All Rights Reserved. 
+         </div>
+      </footer>
+      <!-- END: Footer -->
+      <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+         if (typeof(atob) == "undefined")
+         {
+         	document.write('<script src="lib/stringencoders-v3.10.3/javascript/base64.js"><\/script>');
+         	var atob = function(x)
+         	{
+         		return base64.decode(x);
+         	}
+         }
+      </script>
+      <script src="bower_components/less.js/dist/less.min.js"></script>
+      <script src="bower_components/jquery/dist/jquery.min.js"></script>
+      <script src="lib/tween/tween.min.js"></script>
+      <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="lib/modernizr-edited.js"></script>
+      <script src="bower_components/jquery-cookie/jquery.cookie.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+      <script src="bower_components/jqBootstrapValidation/dist/jqBootstrapValidation-1.3.7.min.js"></script>
+      <script src="bower_components/minicolors/jquery.minicolors.min.js"></script>
+      <script src="bower_components/slick.js/slick/slick.min.js"></script>
+      <script src="bower_components/shufflejs/dist/jquery.shuffle.min.js"></script>
+      <script src="bower_components/textillate/assets/jquery.lettering.js"></script>
+      <script src="bower_components/textillate/assets/jquery.fittext.js"></script>
+      <script src="bower_components/textillate/jquery.textillate.js"></script>
+      <script src="lib/prism/prism.js"></script>
+      <script>
+         (function()
+         {
+         	var disableMobileAnimations = true;
+         	var isWin = navigator.appVersion.indexOf("Win") !== -1;
+         	if (isWin) $('html').addClass('win');
+         	var ua = navigator.userAgent.toLowerCase();
+         	var isChrome = ua.indexOf('chrome') > -1;
+         	if (isChrome) $('html').addClass('chrome');
+         	var isAndroidBrowser4_3minus = ((ua.indexOf('mozilla/5.0') > -1 && ua.indexOf('android ') > -1 && ua.indexOf('applewebkit') > -1) && !(ua.indexOf('chrome') > -1));
+         	if (isAndroidBrowser4_3minus) $('html').addClass('android-browser-4_3minus');
+         	var isSafari = !isChrome && ua.indexOf('safari') !== -1;
+         	if (isSafari) $('html').addClass('safari');
+         	var isMobile = false; //Change false to Modernizr.touch if you want to disable animations on touchscreen devices;
+         	if (isMobile)
+         	{
+         		$('html').addClass('mobile');
+         		if (disableMobileAnimations) $('html').addClass('poor-browser');
+         	}
+         	else
+         	{
+         		$('html').addClass('non-mobile');
+         	}
+         	if (isWin && isSafari)
+         	{
+         		$('html').addClass('flat-animation');
+         	}
+         })();
+      </script>
+      <script src="scripts/script-bundle.js"></script>
+      <script>
+         if (Function('/*@cc_on return document.documentMode===9@*/')())
+         {
+         	$('html').addClass('ie9');
+         }
+         if (Function('/*@cc_on return document.documentMode===10@*/')())
+         {
+         	$('html').addClass('ie10');
+         }
+         if (!!navigator.userAgent.match(/Trident.*rv\:11\./))
+         {
+         	$('html').addClass('ie11');
+         }
+      </script>
+   </body>
+</html>
